@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "devDependencies": {
+    "danger": "^6.1"
+  },
+  "scripts": {
+    "danger": "danger"
+  }
+}
