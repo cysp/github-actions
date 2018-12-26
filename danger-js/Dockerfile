@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM node:10-alpine
 
 LABEL version="0.0.1"
 LABEL repository="https://github.com/scentregroup/github-actions"
@@ -9,6 +9,8 @@ LABEL com.github.actions.name="Danger"
 LABEL com.github.actions.description="Runs danger-js."
 LABEL com.github.actions.icon="shield"
 LABEL com.github.actions.color="green"
+
+RUN apk --no-cache add git
 
 COPY "package.json" "/usr/local/package.json"
 COPY "package-lock.json" "/usr/local/package-lock.json"

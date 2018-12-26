@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "danger": "^6.1"
+    "danger": "git+https://github.com/cysp/danger-js#88c9f60661343672431bc6d160f2923f02235546"
   },
   "scripts": {
     "danger": "danger"
