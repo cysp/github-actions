@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "devDependencies": {
+    "danger": "^9.1.8"
+  }
+}

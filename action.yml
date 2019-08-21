@@ -1,0 +1,7 @@
+name: 'Danger.js'
+description: 'Danger.js'
+author: 'cysp'
+runs:
+  using: 'node_modules/.bin/danger'
+  args:
+    - 'ci'
