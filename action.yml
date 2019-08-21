@@ -1,0 +1,6 @@
+name: 'Danger.js'
+description: 'Danger.js'
+author: 'cysp'
+runs:
+  using: 'node12'
+  main: 'src/main.js'

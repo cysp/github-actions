@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "dependencies": {
+    "@actions/core": "^1.0.0",
+    "@actions/exec": "^1.0.0",
+    "danger": "^9.1.8"
+  },
+  "scripts": {
+    "danger": "node src/main.js"
+  }
+}
